@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="champion1.css">
+        <script defer src="fontawesome/js/all.js"></script> <!--load all styles -->
+        <link href="fontawesome/css/all.css" rel="stylesheet">
+        <title>Questions d'un Champion</title>
+    </head>
+    <body>
+        <div class="container1" id="container1">
+            <div class="definition" id="definition">
+                <img  id="image1" src="champion.jpg" alt="#">
+                <p id="title">Questions pour un Champion</p>
+            </div>
+            <div class="conteneur" id="conteneur">
+                <div class="tableau" id="tableau">
+                    <div class="ecran" id="ecran">
+                        <div class="question" id="question">
+                            <p class="la_question" id="la_question"></p>
+                            <button class="jouer" id="jouer" onclick="demarrer()">Jouer</button>
+                        </div>
+                    </div>
+                    <div class="reponse" id="reponse">
+                        <button class="contenu_reponse" id="f_r">
+                            <p class="une_reponse" id="rep_a">Reponse A</p>
+                        </button>
+                        <button class="contenu_reponse" id="s_r">
+                            <p class="une_reponse" id="rep_b">Reponse B</p>
+                        </button>
+                        <button class="contenu_reponse" id="t_r">
+                            <p class="une_reponse" id="rep_c">Reponse C</p>
+                        </button>
+                        <button class="contenu_reponse" id="fr_r">
+                            <p class="une_reponse" id="rep_d">Reponse D</p>
+                        </button>
+                    </div>
+                </div>
+                <aside id="les_identites" class="les_identites">
+                    <div class="identite" id="identite">
+                        <div class="identite_0" id="identite1" onclick="unclick(identite1)">
+                            <img src="png1.png" width="40px" height="50px" style="border-radius: 15px;">
+                            <p class="carac" id="joueur1">Joueur 1</p>
+                            <div class="cage">
+                                <p class="points" id="points_1">0</p>
+                                <button class="bouton" id="bouton_1"><i class="fas fa-signature" style="font-size: 18px;"></i></button>
+                            </div>
+                        </div>
+                        <div class="identite_0" id="identite2" onclick="unclick(identite2)">
+                            <img src="png2.png" width="40px" height="50px" style="border-radius: 15px;">
+                            <p class="carac" id="joueur2">Joueur 2</p>
+                            <div class="cage">
+                                <p class="points" id="points_2">0</p>
+                                <button class="bouton" id="bouton_2"><i class="fas fa-signature" style="font-size: 18px;"></i></button>
+                            </div>
+                        </div>
+                        <div class="identite_0" id="identite3" onclick="unclick(identite3)">
+                            <img src="png3.png" width="40px" height="50px" style="border-radius: 15px;">
+                            <p class="carac" id="joueur3">Joueur 3</p>
+                            <div class="cage">
+                                <p class="points" id="points_3">0</p>
+                                <button class="bouton" id="bouton_3"><i class="fas fa-signature" style="font-size: 18px;"></i></button>
+                            </div>
+                        </div>
+                        <div class="identite_0" id="identite4" onclick="unclick(identite4)">
+                            <img src="png4.png" width="40px" height="50px" style="border-radius: 15px;">
+                            <p class="carac" id="joueur4">Joueur 4</p>
+                            <div class="cage">
+                                <p class="points" id="points_4">0</p>
+                                <button class="bouton" id="bouton_4"><i class="fas fa-signature" style="font-size: 18px;"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            
+        </div>
+        
+        <script type="text/javascript" src="champion1.js"></script>
+    </body>
+</html>

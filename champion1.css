@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    margin-top:40px ;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+.definition{
+    align-content: center;
+    align-items: center;
+    orientation: horizontal;
+    background: url("phx2.jpg");
+    border-radius: 10px;
+    overflow: hidden;
+    height: 189px;
+    display: flex;
+}
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: gold;
+    font-family: 'Forte';
+}
+#image1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.conteneur{
+    display: flex;
+}
+.tableau{
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 100%;
+    height: 600px;
+    background: url('phx1.png');
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.ecran{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 400px;
+    background:white;
+    border-radius: 10px;
+    border: 3px solid rgb(26, 142, 236);
+    z-index: 1;
+}
+.reponse{
+    margin-top: 30px;
+    height: 120px;
+    width: 95%;
+    border-radius: 10px;
+    border: 3px solid rgb(26, 142, 236);
+    background:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contenu_reponse{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 40px;
+    border: 2px solid rgb(26, 142, 236);
+    border-radius: 5px;
+    background:#fff;
+    justify-content: space-around;
+    display: flex;
+}
+.contenu_reponse:active{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 40px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    background:#fff;
+    justify-content: space-around;
+    display: flex;
+}
+.contenu_reponse:hover{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 40px;
+    border: 2px solid rgb(26, 142, 236);
+    border-radius: 5px;
+    background:rgb(26, 142, 236);
+    justify-content: space-around;
+    display: flex;
+}
+.une_reponse{
+    justify-content: center;
+    margin: auto;
+    font-family: 'Cooper Black';
+    font-size: 15px;
+}
+.une_reponse:hover{
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-family: 'Cooper Black';
+    font-size: 15px;
+}
+.les_identites{
+    margin-top:30px;
+    margin-left: 10px;
+    float: right;
+}
+.identite_0{
+    margin-top: 10px;
+    height: 120px;
+    border: 3px solid rgb(26, 142, 236);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.identite_0:active{
+    margin-top: 10px;
+    height: 120px;
+    border: 3px solid url("phx1.png");
+    background: rgb(91, 139, 175);
+    border-radius: 10px;
+    text-emphasis-color: white;
+    cursor: pointer;
+}
+
+.carac{
+    justify-content: center;
+    margin: auto;
+    font-family: 'Cooper Black';
+    font-size: 15px;
+}
+.cage{
+    display: flex;
+    overflow: hidden;
+    padding-right: 10px;
+    justify-content: center;
+}
+.points{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgb(26, 142, 236);
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+}
+.bouton{
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 32px;
+    width: 32px;
+    margin-bottom: 2px;
+}
+.fas fa-hand-sparkles{
+    justify-content: center;
+    align-content: center;
+}
+.question{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.la_question{
+    margin-left:15%;
+    margin-right: 15%;
+    margin-top: 70px;
+    align-content: center;
+    text-align: justify;
+    justify-content: center;
+}
+.jouer{
+    padding : 10px 30px;
+    font-Family : 'Forte';
+    font-size : 25px;
+    align-items : center;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.jouer:hover{
+    background-color: gold;
+    padding : 8px 30px;
+    font-Family : 'Forte';
+    font-size : 25px;
+    align-items : center;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
